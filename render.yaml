@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: our-little-universe
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: '1'
+# For durable hosted saves, use a paid persistent disk or a database.
+# A free container's local filesystem should be treated as ephemeral.

@@ -1,0 +1,35 @@
+OUR LITTLE UNIVERSE — MUSTAFA & TOSH TOSH ♡
+
+WHAT IS READY
+The first playable chapter: two separate 3D bedrooms, private multiplayer
+room, touchscreen controls, unique secret clues, a co-op puzzle, a shared
+magical garden, and the first memory-book page. No photos are needed yet.
+
+WINDOWS — SIMPLE START
+1. Install Python 3.10 or newer (https://www.python.org/downloads/).
+   During installation, select "Add Python to PATH".
+2. Extract this entire ZIP file. Do NOT run the game inside the ZIP viewer.
+3. Double-click RUN_GAME_WINDOWS.bat.
+4. Open http://localhost:8080 on your Windows computer.
+5. Click "Create our world" and copy the 6-character room code.
+6. Open a second browser window to http://localhost:8080 and join with that
+   room code to test the two-player puzzle.
+
+SEPARATE IPADS / DISTANT LOCATIONS
+To play over the internet, deploy the game server to a web host that supports
+HTTPS and WebSocket connections. The README contains deployment instructions.
+The local computer URL "localhost" does NOT work across different locations.
+
+FOR A REAL ONLINE WEBSITE
+Open DEPLOY_TO_WEB.md. The included Dockerfile + render.yaml publish the
+webpage and multiplayer server together on Render. A hosting account is
+required to receive a public URL; the files alone are not already hosted.
+
+WHEN YOU SEND PHOTOS
+The first memory image should be named first-call.jpg and stored privately in:
+  private_assets/memories/first-call.jpg
+No photos are included in this first version. Do not put private photos into
+web/assets or a public code repository.
+
+TECHNICAL AND DEPLOYMENT DETAILS
+See README.md for controls, progress saving, security and future chapters.
